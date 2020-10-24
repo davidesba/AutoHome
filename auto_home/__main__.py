@@ -3,9 +3,9 @@ import sys
 
 import RPi.GPIO as GPIO
 import yaml
-from components.light import Light
-from components.motor import Direction, Motor
-from components.power import Power
+from auto_home.components.light import Light
+from auto_home.components.motor import Direction, Motor
+from auto_home.components.power import Power
 from homekit import AccessoryServer
 from homekit.model import Accessory
 

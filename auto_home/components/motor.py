@@ -9,12 +9,11 @@ from queue import Empty, Queue
 
 import attr
 import RPi.GPIO as GPIO
-
-from gpio.extensions import (CurrentPositionCharacteristic,
-                             PositionStateCharacteristic,
-                             TargetPositionCharacteristic,
-                             WindowCoveringService)
-from gpio.power import Power
+from components.extensions import (CurrentPositionCharacteristic,
+                                   PositionStateCharacteristic,
+                                   TargetPositionCharacteristic,
+                                   WindowCoveringService)
+from components.power import Power
 
 PAUSE = 0.005
 TURN = 200

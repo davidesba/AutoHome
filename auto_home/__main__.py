@@ -3,12 +3,11 @@ import sys
 
 import RPi.GPIO as GPIO
 import yaml
+from components.light import Light
+from components.motor import Direction, Motor
+from components.power import Power
 from homekit import AccessoryServer
 from homekit.model import Accessory
-
-from gpio.light import Light
-from gpio.motor import Direction, Motor
-from gpio.power import Power
 
 if __name__ == '__main__':
     # setup logger

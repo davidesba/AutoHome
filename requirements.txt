@@ -1,5 +1,5 @@
 apscheduler
 attrs
 homekit[IP]
-rpi.gpio
-
+PyYAML
+RPi.GPIO

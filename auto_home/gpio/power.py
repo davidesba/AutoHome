@@ -3,7 +3,7 @@ from threading import Lock
 from time import sleep
 
 import attr
-import rpi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 logger = logging.getLogger('auto-home')
 

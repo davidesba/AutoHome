@@ -1,7 +1,7 @@
 import logging
 import sys
 
-import rpi.GPIO as GPIO
+import RPi.GPIO as GPIO
 import yaml
 from homekit import AccessoryServer
 from homekit.model import Accessory

@@ -8,7 +8,7 @@ from pathlib import Path
 from queue import Empty, Queue
 
 import attr
-import rpi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 from gpio.extensions import (CurrentPositionCharacteristic,
                              PositionStateCharacteristic,

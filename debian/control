@@ -1,0 +1,16 @@
+
+Source: auto-home
+Section: devel
+Priority: extra
+Maintainer: David Burgos <davidesba@gmail.com>
+Build-Depends: debhelper (>= 9),
+               python3-dev,
+               dh-virtualenv (>= 0.8),
+               dh-systemd
+Standards-Version: 3.7.2
+
+Package: auto-home
+Architecture: all
+Depends: python3.7,
+         systemd
+Description: Service controler for homekit automatization
